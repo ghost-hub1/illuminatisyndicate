@@ -1,0 +1,120 @@
+/*
+Customized Styles For Illuminati Symbols - Main Page
+*/
+
+#theme-page .theme-page-wrapper.full-width-layout {
+    margin: 0px 0px !important;
+}
+
+@media screen and (min-width: 1141px){
+#add-top-space {
+    height: 150px !important;
+}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1140px){
+#add-top-space {
+    height: 0px !important;
+}
+}
+
+@media screen and (max-width: 800px){
+#add-top-space {
+    height: 50px !important;
+}
+
+}
+
+.section1 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.section1 h1 {
+    font-size: 70px;
+    font-family: "Spectral", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.7);
+    line-height: 1;
+}
+
+.section1 h2 {
+    font-size: 30px;
+    font-family: "Spectral", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    line-height: 0.7;
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+.section1 h3 {
+    font-size: 17px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    font-weight: 800;
+    max-width: 330px;
+    margin: 0 auto;
+    font-family: "Spectral", sans-serif;
+}
+
+.section1a {
+    margin-bottom: 20px;
+}
+
+.section1b {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.symboliconbox {
+    padding: 5px;
+}
+
+img.symbolicon:hover {
+    opacity: 0.9;
+}
+
+
+.section2 h1 {
+    font-size: 36px;
+    font-family: "Spectral", sans-serif;
+    color: #002f5c;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.section2text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 415px){
+.section1 h1 {
+    font-size: 42px !important;
+}
+
+.section1b .vc_column-inner {
+    max-width: 33%;
+    float: left;
+}
+
+.section2text {
+    padding: 10px;
+}
+
+.section1 {
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+}

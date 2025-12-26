@@ -1,0 +1,136 @@
+/*
+Customized Styles For Illuminati Symbols - Sub Pages
+*/
+
+#theme-page .theme-page-wrapper.full-width-layout {
+    margin: 0px 0px !important;
+}
+
+@media screen and (min-width: 1141px){
+#add-top-space {
+    height: 150px !important;
+}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1140px){
+#add-top-space {
+    height: 0px !important;
+}
+}
+
+@media screen and (max-width: 800px){
+#add-top-space {
+    height: 50px !important;
+}
+    .mk-fullwidth-true {
+    padding-top: 10px !important;
+}
+}
+
+.symbolimagebox {
+    text-align: center !important;
+}
+
+.symboltext {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border: 3px solid #e8b686;
+    -webkit-box-shadow: 0px 0px 19px 5px rgba(167,129,93,1);
+-moz-box-shadow: 0px 0px 19px 5px rgba(167,129,93,1);
+box-shadow: 0px 0px 19px 5px rgba(167,129,93,1);
+    margin-bottom: 30px !important;
+}
+
+.symboltitle h1 {
+    font-size: 60px;
+    font-family: "Spectral", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(167, 0, 67, 0.8);
+    line-height: 1;
+    font-weight: 800;
+}
+
+.symboltitle h2 {
+    font-size: 24px;
+    font-family: "Spectral", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgb(179, 135, 93);
+    line-height: 1;
+    font-weight: 600;
+}
+
+
+
+img.moresymbolsicon {
+    max-width: 150px;
+    padding: 5px;
+}
+
+.moresymbolsiconrow {
+    text-align: center !important;
+    margin: 0 auto !important;
+    max-width: 500px;
+}
+
+.moresymbolstext p {
+    font-size: 22px;
+    font-family: "Spectral", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-weight: 900 !important;
+}
+
+.moresymbolsbox {
+    padding: 20px;
+}
+
+.moresymbolstext a {
+    color: #ffffff;
+    background: #dfa36e;
+    font-size: 12pt;
+    padding: 6px 12px;
+}
+.moresymbolstext a:hover {
+background: #bf8c5e;
+}
+
+div#essb_displayed_shortcode_594069854 {
+    margin-top: 2px;
+}
+
+img.moresymbolsicon:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 376px){
+    .symboltitle h1 {
+    font-size: 40px !important;
+}
+
+img.symbolimage {
+    max-width: 200px;
+}
+
+img.moresymbolsicon {
+    max-width: 26%;
+}
+}
+
+
+@media screen and (max-width: 450px){
+   img.moresymbolsicon {
+    max-width: 26%;
+}
+   .symboltitle h2 {
+    max-width: 90%;
+    margin: 0 auto;
+}
+}

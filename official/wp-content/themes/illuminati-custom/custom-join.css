@@ -1,0 +1,127 @@
+/*
+Custom Styles For Illuminati Join Box
+Designer: EDELMAN
+*/
+
+.joinilluminatitoptext {
+    margin-bottom: 35px!important;
+    margin-top: -15px!important;
+}
+
+.joinilluminatitext h1, .joinilluminatitext h2, .joinilluminatitext h3 {
+    text-align: center !important;
+}
+
+.joinilluminatitoptext h4 {
+    text-align: center !important;
+    font-size: 25pt !important;
+    font-family: 'Average', serif !important;
+}
+
+@media handheld, only screen and (min-width: 322px) {
+    .joinilluminatitext h1 {
+        font-size: 25pt !important;
+        font-family: 'Average', serif !important;
+    }
+}
+
+@media handheld, only screen and (max-width: 321px) {
+    .joinilluminatitext h1 {
+        font-size: 22pt !important;
+        font-family: 'Average', serif!important;
+    }
+}
+
+.joinilluminatitext h3 {
+    font-size: 10pt !important;
+}
+
+.joinilluminatiform {
+    -webkit-box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.4);
+    background: -moz-linear-gradient(top, rgba(153, 22, 67, 0.9) 0%, rgba(132, 19, 51, 0.8) 100%);
+    background: -webkit-linear-gradient(top, rgba(153, 22, 67, 0.9) 0%, rgba(132, 19, 51, 0.8) 100%);
+    background: linear-gradient(to bottom, rgba(153, 22, 67, 0.9) 0%, rgba(132, 19, 51, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6991643', endColorstr='#cc841333', GradientType=0);
+}
+
+.joinilluminatiform {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.vc_custom_1492812309613 {
+    background-size: 1500px 1023px !important;
+    background-repeat: no-repeat !important;
+    background: #b5b5b5;
+    background-position-y: top !important;
+}
+
+.theme-page-wrapper {
+    background: #e3e3e3 !important;
+}
+
+@media handheld, only screen and (max-width: 960px) {
+    .theme-page-wrapper {
+        background: #e3e3e3 !important;
+    }
+    .vc_row-has-fill>.vc_column_container>.vc_column-inner {
+        padding-top: 10px !important;
+    }
+    .wpb_column.vc_column_container.vc_col-sm-6 {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
+
+.mk-main-wrapper-holder {
+    background: #e3e3e3!important;
+}
+
+.joinilluminatibox {
+    background-size: 1500px 1023px!important;
+    background: #e3e3e3;
+    background-image: url(../../../../assets.illuminatiofficial.org/wp-content/uploads/2014/03/21221441/illuminati-website-signup-join-page1.jpg)!important;
+    background-position: center top!important;
+    background-repeat: no-repeat!important;
+}
+
+.joinimage {
+    width: 60px;
+    top: -50px;
+    text-align: center;
+    left: 50%;
+    margin-left: -30px;
+    position: relative;
+}
+
+.joinimagebox {
+    height: 5px;
+}
+
+div#essb_displayed_shortcode_443501898 {
+    margin-top: 1px !important;
+}
+
+@media handheld, only screen and (max-width: 450px) {
+    div#mk-page-id-3117.theme-page-wrapper {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .vc_custom_1492810489804 .vc_column-inner {
+        padding-top: 2px !important;
+    }
+}
+
+.joinilluminatitoptext h4 {
+    text-align: center!important;
+    font-size: 11pt!important;
+    font-family: 'Average', serif!important;
+    max-width: 450px;
+    margin: auto;
+    margin-top: -5px;
+}

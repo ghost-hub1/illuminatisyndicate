@@ -1,0 +1,91 @@
+/*
+Custom Styles For Illuminati Globalist Agenda
+*/
+
+@media only screen and (min-width: 580px){
+#main-post-content {
+    margin-top: -170px !important;
+}
+}
+
+@media only screen and (max-width: 768px){
+#main-post-content {
+    margin-top: -115px !important;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+#main-post-content {
+    margin-top: -120px !important;
+}
+.vc_custom_1516754339050 {
+    margin-bottom: -4px !important;
+}
+
+}
+
+
+#top-image-row{
+    background-color: #ffd363;
+}
+
+img#top-image {
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+}
+
+.our-globalist-agenda h1.maintitle1 {
+    font-family: "Teko", sans-serif !important;
+    font-size: 80pt !important;
+    font-weight: 300 !important;
+    line-height: 1;
+        margin: 2px;
+        color: #991643 !important;
+        text-shadow: 0px 0px 10px rgba(255, 191, 66, 1);
+}
+
+.our-globalist-agenda h2.maintitle2 {
+    font-family: "Teko", sans-serif !important;
+    font-size: 100pt !important;
+    font-weight: 600 !important;
+    line-height: 1;
+    color: #991643 !important;
+    text-shadow: 0px 0px 10px rgba(255, 191, 66, 1);
+        margin-bottom: 0px !important;
+}
+
+.our-globalist-agenda h3.maintitle3 {
+    font-family: "Teko", sans-serif !important;
+    font-size: 28pt !important;
+    font-weight: 300 !important;
+    line-height: 1;
+    color: #991643 !important;
+    padding: 1px !important;
+}
+
+.maintitle{
+  margin-bottom: 40px !important;
+}
+
+@media only screen and (max-width: 579px){
+  .our-globalist-agenda h1.maintitle1 {
+      font-size: 42pt !important;
+    }
+    .our-globalist-agenda h2.maintitle2 {
+font-size: 70pt !important;
+    }
+
+    .our-globalist-agenda h3.maintitle3 {
+font-size: 21pt !important;
+    }
+
+.agenda-mobile-header{}
+.agenda-desktop-header{display:none !important}
+
+}
+
+@media only screen and (min-width: 580px){
+  .agenda-mobile-header{display:none !important}
+  .agenda-desktop-header{}
+}

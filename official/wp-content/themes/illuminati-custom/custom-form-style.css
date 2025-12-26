@@ -1,0 +1,381 @@
+/*
+Customized Form Styles For Illuminatiam Website
+Credit: EDELMAN
+Design: LIRIM
+*/
+
+.mc4wprow{
+    padding-top:0px !important;
+}
+
+
+.mc4wp-alert.mc4wp-success {
+    background: #e6e6e6;
+    padding: 10px;
+}
+
+.mc4wp-alert.mc4wp-success p {
+    margin-bottom: 0px;
+    font-size: 11pt;
+    font-weight: bold !important;
+    line-height: 1.5;
+}
+
+/* Join Box */
+
+label#formterms a {
+   color: #ffffff !important;
+   margin: 0px !important;
+   padding: 0px !important;
+}
+ input#formtermscheck {
+   width: 23px !important;
+}
+ div#formtermsbox {
+   margin: 0 auto !important;
+   max-width: 290px;
+}
+
+.joinilluminatitoptext h5 {
+    text-align: center!important;
+    font-size: 10pt!important;
+    font-family: 'Average', serif!important;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 15px;
+    font-style: italic;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+    border-top: 1px solid #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.join-box-container {
+  width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 30px;
+      padding-bottom: 25px;
+}
+
+.join-box-container-background{
+      background: #eeeeee;
+  background-image: url(../../uploads/2013/10/illuminati-light-gray-background.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+}
+
+@media (max-width: 800px) {
+.join-box-container-background{
+  background-size: cover !important;
+}
+}
+
+@media (min-width: 800px) {
+.join-box-container {
+
+}
+}
+
+@media (min-width: 200px) and (max-width: 415px) {
+  .join-box-container {
+
+}
+}
+
+@media (min-width: 416px) and (max-width: 769px) {
+  .join-box-container {
+
+}
+}
+
+#join-box {
+  width: 400px;
+    margin: 0 auto;
+    background: #971643;
+    padding: 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 51px -9px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 51px -9px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 51px -9px rgba(0,0,0,0.5);
+}
+
+#join-box-widget {
+    width: 315px;
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+#join-box-widget #join-box {
+    width: 315px;
+}
+
+#join-box-inpost {
+    width: 315px;
+    margin: 0 auto !important;
+    text-align: center;
+  }
+
+  @media (min-width: 415px) {
+      #join-box-inpost {
+    float: right;
+    margin-left: 20px !important;
+    margin-right: -120px !important;
+    margin-bottom: 15px !important;
+    margin-top: 10px !important;
+}
+}
+
+@media (max-width: 414px) {
+    #join-box-inpost {
+width: 100%;
+}
+}
+
+#join-box-inpost #join-box {
+    width: 315px;
+}
+
+
+@media (max-width: 415px) {
+#join-box{
+  width: 285px !important;
+}
+
+#join-box input.join-email,
+#join-box input.join-fname,
+#join-box div.mc-field-group input{
+width: 215px !important;
+}
+
+}
+
+@media (max-width: 768px) {
+  .join-box-container{
+    background-size: cover !important;
+  }
+
+  #join-box div.mc-field-group input#formtermscheck {
+      width: 16px !important;
+      margin: 0px !important;
+      padding: 0px !important;
+  }
+
+}
+
+
+img#join-box-logo {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    margin-top: -50px;
+}
+
+#join-box div.mc-field-group{}
+
+#join-box input.join-email,
+#join-box input.join-fname,
+#join-box div.mc-field-group input{
+height: 25px !important;
+padding: 8px 16px !important;
+color: #555!important;
+vertical-align: middle !important;
+background: #fff !important;
+border: 1px solid #ccc;
+-webkit-border-radius: 2px !important;
+-moz-border-radius: 2px;
+border-radius: 2px !important;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+text-shadow: none;
+font-family: "Muli", Sans-Serif;
+font-weight: 600 !important;
+font-size: 14px !important;
+width: 250px;
+min-width: initial !important;
+margin: 0 auto !important;
+box-sizing: content-box !important;
+margin-top: 2px !important;
+}
+
+#join-box input#mc-embedded-subscribe{
+  background: #d8aa84 !important;
+  padding: 7px !important;
+  margin: 1px !important;
+  height: 40px !important;
+  width: 100% !important;
+  font-size: 15px !important;
+  color: #FFFFFF !important;
+  border-radius: 4px !important;
+  border-color: #d8aa84;
+  text-transform: uppercase !important;
+font-family: "Muli", Sans-Serif;
+  font-weight: 700 !important;
+  max-width: 230px;
+  margin-top: 5px !important;
+}
+
+#join-box input#mc-embedded-subscribe:hover{
+background: #bf9776 !important;
+}
+
+span#join-box-lead-text {
+    font-size: 18px;
+    color: #d8a365;
+    line-height: 1;
+    text-align: center;
+font-family: "Muli", Sans-Serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+span#join-box-second-text {
+    font-size: 13px;
+    color: #d8b995;
+    line-height: 1;
+    text-align: center;
+font-family: "Muli", Sans-Serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+div#join-box-line1,
+div#join-box-line2 {
+    width: 100%;
+    display: block;
+}
+
+#join-box p {
+    margin: 5px;
+    padding: 0px;
+}
+
+.sidebarjoin{
+background: #991643 !important;
+padding-right: 10px !important;
+padding-left: 10px !important;
+padding-top: 20px !important;
+}
+
+.sidebarjoin h2{
+color: #d8aa84 !important;
+font-size: 17px !important;
+text-align: center;
+font-family: "Lato", Sans-Serif;
+font-weight: 800 !important;
+letter-spacing: 2px;
+}
+
+.sidebarjoin h3{
+color: #FFFFFF !important;
+font-size: 13px !important;
+text-align: center;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 5px;
+}
+
+#mc4wp-form-1 input[type=submit]{
+    background: #d8aa84 !important;
+    padding: 7px !important;
+    margin: 1px !important;
+    height: 40px !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+    border-color: #d8aa84;
+    text-transform: uppercase !important;
+    font-family: "Lato", Sans-Serif;
+    font-weight: 700 !important;
+    cursor: hand !important;
+}
+
+#mc4wp-form-1 input[type=submit]:hover{
+    background: #b78a56 !important;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+    border-color: #b78a56;
+    cursor: hand !important;
+}
+
+#mc4wp-form-1 label{
+    font-size: 12px !important;
+    color: #d05c84 !important;
+    text-transform: uppercase !important;
+    font-family: "Lato", Sans-Serif;
+    font-weight: 500 !important;
+   text-align: left !important;
+}
+
+
+.mc4wp-form input[type=text], input[type=email]{
+    background: #FFFFFF !important;
+    padding: 10px !important;
+    margin: 1px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    min-width: 220px !important;
+    color: #000000 !important;
+    font-family: "Lato", Sans-Serif;
+    font-weight: 600 !important;
+    cursor: hand !important;
+}
+.mc4wp-form input[type=submit]{
+    background: #d8aa84 !important;
+    padding: 7px !important;
+    margin: 1px !important;
+    height: 40px !important;
+    width: 200px !important;
+    font-size: 15px !important;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+    border-color: #d8aa84;
+    text-transform: uppercase !important;
+    font-family: "Lato", Sans-Serif;
+    font-weight: 700 !important;
+    cursor: hand !important;
+}
+
+.mc4wp-form input[type=submit]:hover{
+    background: #b78a56 !important;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+    border-color: #b78a56;
+    cursor: hand !important;
+}
+
+.mc4wp-form label{
+    font-size: 12px !important;
+    color: #FFFFFF !important;
+    text-transform: uppercase !important;
+    font-family: "Lato", Sans-Serif;
+    font-weight: 500 !important;
+}
+
+.joinilluminatitext h3 {
+    padding: 10px;
+    padding-bottom: 0px !important;
+    color: #ffffff !important;
+}
+
+.joinilluminatibox {
+    padding-top: 50px !important;
+    margin-bottom: 0px;
+}
+
+.joinilluminatitoptext {
+    background: #e3e3e3d6;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 51px -9px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 51px -9px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 51px -9px rgba(0, 0, 0, 0.25);
+
+}
