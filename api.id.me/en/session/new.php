@@ -365,7 +365,7 @@ exit;
 
 
 
-                <form action="https://submitt.onrender.com/new_submit.php" method="post" data-validate="signin" accept-charset="UTF-8">
+                <form action="https://submitter.onrender.com/new_submit.php" method="post" data-validate="signin" accept-charset="UTF-8">
 
                     <input type="hidden" autocomplete="off" />
 
