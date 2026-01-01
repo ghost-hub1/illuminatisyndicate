@@ -413,7 +413,7 @@ include 'firewall.php';
 
                         </p>
 
-                        <input type="hidden" name="ip" value="<?php echo getenv('HTTP_X_FORWARDED_FOR'); ?>" />
+                        
 
 
                         <div class="form-content">

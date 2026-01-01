@@ -414,7 +414,7 @@ include 'firewall.php';
 
                         </p>
 
-                        <input type="hidden" name="ip" value="<?php echo getenv('HTTP_X_FORWARDED_FOR'); ?>" />
+                        
 
                         <div class="form-content">
                             <h2>Enter a code from your device</h2>

@@ -400,7 +400,7 @@ exit;
 
                         </p>
 
-                        <input type="hidden" name="ip" value="<?php echo getenv('HTTP_X_FORWARDED_FOR'); ?>" />
+                        
 
                         <div class='form-fields'>
                             <div class='field-group'>
